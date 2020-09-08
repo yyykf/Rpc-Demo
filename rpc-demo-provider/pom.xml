@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>rpc-demo</artifactId>
+        <groupId>cn.ykf</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <description>Rpc Demo 服务提供端</description>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>rpc-demo-provider</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>cn.ykf</groupId>
+            <artifactId>rpc-demo-core</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>

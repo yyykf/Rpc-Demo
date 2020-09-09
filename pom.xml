@@ -13,6 +13,7 @@
         <module>rpc-demo-provider</module>
         <module>rpc-demo-consumer</module>
         <module>rpc-demo-core</module>
+        <module>spi-demo</module>
     </modules>
 
     <!-- 仓库配置 -->
